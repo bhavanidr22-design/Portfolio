@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-glass-surface: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-accent: #818cf8;
+  --color-bg-base: #050505;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: rgba(255, 255, 255, 0.6);
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-base);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+    @apply antialiased selection:bg-indigo-400/30;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[var(--color-text-primary)];
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    background: var(--color-glass-surface);
+    border: 1px solid var(--color-glass-border);
+    backdrop-filter: blur(20px);
+    @apply rounded-xl;
+  }
+  
+  .glass-card {
+    background: var(--color-glass-surface);
+    border: 1px solid var(--color-glass-border);
+    backdrop-filter: blur(20px);
+    @apply rounded-xl transition-all duration-300;
+  }
+  .glass-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--color-text-primary);
+  }
+
+  .btn-primary {
+    background: var(--color-accent);
+    color: #000;
+    @apply px-8 py-4 rounded font-semibold uppercase tracking-[1px] border-none transition-all duration-300 hover:brightness-110 flex items-center justify-center gap-2 text-sm;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    border: 1px solid var(--color-glass-border);
+    color: var(--color-text-primary);
+    backdrop-filter: blur(10px);
+    @apply px-8 py-4 rounded font-semibold uppercase tracking-[1px] transition-all duration-300 hover:bg-white/5 flex items-center justify-center gap-2 text-sm;
+  }
+
+  .bg-grid-pattern {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .mesh-bg-gradients {
+    background-color: var(--color-bg-base);
+    background-image: 
+      radial-gradient(circle at 80% 20%, rgba(63, 63, 203, 0.15) 0%, transparent 40%),
+      radial-gradient(circle at 20% 80%, rgba(129, 140, 248, 0.1) 0%, transparent 40%),
+      radial-gradient(circle at 50% 50%, rgba(5, 5, 5, 1) 0%, rgba(10, 10, 10, 1) 100%);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,128 @@
+{
+  "basics": {
+    "name": "Bhavani D",
+    "title": "Full Stack Developer",
+    "location": "Austin, Texas, United States",
+    "email": "bhavanidr22@gmail.com",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bhavani-d-67a438365"
+      }
+    ],
+    "summary": "I am a Java Full Stack Developer with 8+ years of experience building scalable, high-performance applications using modern frontend frameworks like React and Angular, along with robust backend solutions using Spring Boot. I focus on creating user friendly interfaces, optimizing microservices architectures, and enabling real-time data processing using messaging platforms such as Kafka and RabbitMQ."
+  },
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": ["React.js", "Angular", "TypeScript", "RxJS", "Bootstrap", "SCSS", "Redux Toolkit", "HTML5", "CSS3"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Java", "Spring Boot", "RESTful APIs", "Spring Security (JWT, OAuth 2.0)", "GraphQL", "Spring MVC", "Java/J2EE"]
+    },
+    {
+      "category": "Databases",
+      "items": ["PostgreSQL", "MySQL", "MongoDB", "Cassandra", "Oracle PL/SQL"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": ["AWS", "GCP", "Kubernetes", "Docker", "Jenkins (CI/CD)", "Azure", "GitLab CI"]
+    },
+    {
+      "category": "Testing & Monitoring",
+      "items": ["JUnit", "Jest", "Mockito", "ELK Stack", "Sentry", "OpenTelemetry", "AWS CloudWatch"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Subaru Corporation",
+      "role": "Java full stack developer",
+      "dates": "July 2023 - Present (2 years 10 months)",
+      "location": "Austin, Texas, United States",
+      "bullets": [
+        "Designed and developed responsive dealer and vehicle management interfaces using React, TypeScript, Redux Toolkit, HTML5, and CSS3, integrating them with Spring Boot microservices to enable real-time service scheduling and diagnostics workflows.",
+        "Built reusable UI components and dynamic validation-driven forms for customer and dealer operations, while implementing backend business logic using Java 17, Spring Boot, and Hibernate to support scalable request processing.",
+        "Implemented asynchronous frontend data handling with Axios and REST APIs, and developed backend persistence layers using Spring Data JPA with MySQL and MongoDB to ensure optimized data access and consistency.",
+        "Improved application performance by applying lazy loading, component memoization, and efficient state management on the frontend, while optimizing backend service execution through layered architecture and query tuning.",
+        "Developed secure end-to-end feature integrations by implementing JWT-based authentication with Spring Security and handling inter-service communication using RabbitMQ for reliable vehicle telemetry and notification processing.",
+        "Containerized full-stack applications using Docker and deployed them via Kubernetes-based CI/CD pipelines, supporting production monitoring, logging, and continuous delivery across cloud environments."
+      ]
+    },
+    {
+      "company": "The Walt Disney Company",
+      "role": "Java Full Stack Developer",
+      "dates": "October 2021 - June 2023 (1 year 9 months)",
+      "location": "Burbank, California, United States",
+      "bullets": [
+        "Built immersive streaming experiences for Disney+ using React 18, Next.js, and Redux Toolkit for global audiences.",
+        "Developed and optimized backend services with Spring Boot, Java 17, and GraphQL, improving data delivery and response times.",
+        "Integrated AWS-based microservices and Kafka to support event-driven, high-traffic streaming operations.",
+        "Improved content recommendation accuracy through real-time API integrations and analytics-driven features.",
+        "Implemented advanced logging and observability using Sentry, OpenTelemetry, and AWS CloudWatch.",
+        "Mentored junior developers on scalable UI design and full-stack best practices, strengthening team productivity."
+      ]
+    },
+    {
+      "company": "Altruista Health",
+      "role": "Java Full Stack Developer",
+      "dates": "December 2019 - September 2021 (1 year 10 months)",
+      "location": "",
+      "bullets": [
+        "Engineered FHIR-compliant APIs and patient dashboards using React, Spring Boot, and Azure, enhancing care coordination.",
+        "Modernized healthcare integration with GraphQL and RESTful APIs, ensuring interoperability across multiple hospital systems.",
+        "Built real-time data pipelines with Kafka Streams and Azure Event Hub for seamless clinical data synchronization.",
+        "Strengthened data security and compliance with Spring Security, JWT, and Azure AD under HIPAA and GDPR.",
+        "Established CI/CD pipelines with GitLab CI, Docker, and Kubernetes, reducing release time by 50%.",
+        "Collaborated with healthcare teams to digitize patient workflows, driving efficiency and data transparency."
+      ]
+    },
+    {
+      "company": "The Hershey Company",
+      "role": "Java Developer",
+      "dates": "July 2018 - November 2019 (1 year 5 months)",
+      "location": "Derry Township, Pennsylvania, United States",
+      "bullets": [
+        "Developed enterprise-grade e-commerce applications using Spring MVC and Java, powering Hershey's retail platforms.",
+        "Automated product catalog and pricing synchronization using Spring Integration and legacy system connectors.",
+        "Improved transaction performance through optimized Oracle PL/SQL queries and Spring JDBC operations.",
+        "Implemented secure payment and user data flows using AWS IAM, S3, and PCI-compliant practices.",
+        "Deployed continuous integration pipelines using GitLab CI/CD, enabling faster rollout of promotions.",
+        "Partnered with business teams to launch digital campaigns that enhanced customer engagement and retention."
+      ]
+    },
+    {
+      "company": "Accel frontline Service Limited",
+      "role": "Java Developer",
+      "dates": "March 2017 - June 2018 (1 year 4 months)",
+      "location": "",
+      "bullets": [
+        "Developed responsive media management dashboards using AngularJS, HTML5, and Spring MVC.",
+        "Designed modular backend services in Java/J2EE, improving performance and scalability across applications.",
+        "Integrated Spring REST APIs with third-party analytics and reporting tools for real-time insights.",
+        "Optimized SQL operations and caching for faster data retrieval and transaction efficiency.",
+        "Migrated legacy JSP/Servlet systems to Angular + Spring MVC, enhancing UI responsiveness.",
+        "Collaborated with QA and design teams through Agile sprints to deliver high quality, customer-focused releases."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "MALLA REDDY ENGINEERING COLLEGE FOR WOMEN(Autonomous)",
+      "degree": "Bachelor of Technology - BTech, Masters in computer science"
+    },
+    {
+      "institution": "Northern Arizona University",
+      "degree": "Master's degree"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect"
+    }
+  ],
+  "achievements": [],
+  "projects": [],
+  "awards": [],
+  "extra": []
+}
